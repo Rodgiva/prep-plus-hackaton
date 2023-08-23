@@ -1,0 +1,18 @@
+:root {
+    --blue: #0035B9;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blue);
+    background-color: white;
+}
+
+main {
+    margin-left: 71px;
+}
+
+main > p {
+    text-align: justify;
+}
