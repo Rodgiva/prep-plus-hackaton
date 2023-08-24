@@ -25,6 +25,7 @@ nav {
     z-index: 2000;
 }
 
+/* When the mouse is hover the navbar, it become larger */
 nav:hover {
     width: 250px;
     /* width: 15%; */
@@ -69,7 +70,5 @@ nav {
 .icon {
     width: 60px;
     margin: 10px;
-    /* height: 80%; */
-    /* margin: 10%; */
 }
 

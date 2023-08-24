@@ -20,6 +20,8 @@ main {
     z-index: -100;
 }
 
+/* The animation of the text */
+/* The text is superposed with display absolute, and invisible woth the opacity 0 */
 .presentation > h1 {
     width: 93%;
     font-size: 72px;
@@ -29,6 +31,7 @@ main {
     opacity: 0;
 }
 
+/* Here we change the opacity of the text with this animation, the opacity is set at 1/4 of the time (we will see next step why) */
 @keyframes emergence-1 {
     0% {
         opacity: 0;
@@ -47,6 +50,7 @@ main {
     }
 }
 
+/* The time of animation is 40, we delay with 10s each text, we loop with animation-iteration-count */
 .text-1 {
     animation-name: emergence-1;
     animation-duration: 40s;
@@ -92,15 +96,6 @@ main {
 
 }
 
-@keyframes emergence-2 {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .element > img {
     z-index: 100;
     width: 200px;
@@ -120,7 +115,6 @@ main {
     margin: 25px 25px;
     font-size: 36px;
     opacity: 0;
-    /* color: white; */
     color: var(--blue);
     transition: all .3s linear;
 }

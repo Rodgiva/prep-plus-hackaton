@@ -1,40 +1,8 @@
-/* :root {
-    --blue: #0035B9;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--blue);
-    background-color: white;
-}
-
-main {
-    margin: 0 0 0 80px;
-}
-
-.title {
-    text-align: center;
-    width: 100%;
-    background-color: var(--blue);
-    color: white;
-    font-size: 42px;
-}
-
-.title h1 {
-    margin: 0;
-}
-
-img {
-    width: 100%;
-} */
-
-/**/
-
 :root {
     --blue: #0035B9;
 }
 
+/* A font we use for the title */
 @font-face {
     font-family: font-tel-aviv;
     src: url(../../src/Fonts/Silver_City.ttf);
@@ -47,6 +15,7 @@ body {
     background-color: white;
 }
 
+/* Here the menu in the top is fixed -> we can access at anytime without scroll up the page */
 .menu {
     position: fixed;
     width: calc(100% - 80px);
@@ -103,16 +72,16 @@ main {
     background-repeat: no-repeat;
 }
     
-
+/* The custom font is used here */
 .title {
     position: absolute;
     color: white;
-    top: 400px;
+    top: 250px;
     margin-left: 50px;
     animation-name: emergence;
     animation-duration: 2s;
     color: white;
-    font-size: 90px;
+    font-size: 72px;
     font-family: font-tel-aviv;
 }
 
